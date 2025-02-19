@@ -1,0 +1,3 @@
+[submodule "third-party/game-boy-test-roms"]
+	path = third-party/game-boy-test-roms
+	url = git@github.com:c-sp/game-boy-test-roms.git
