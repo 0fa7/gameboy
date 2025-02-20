@@ -1,0 +1,6 @@
+#ifndef GAMEBOY_DISASSEMBLER_H
+#define GAMEBOY_DISASSEMBLER_H
+
+void print_usage();
+
+#endif // GAMEBOY_DISASSEMBLER_H
