@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "disassembler.h"
+#include "gameboy_utils.h"
 
 int main(int argc, char** argv)
 {
@@ -11,6 +12,9 @@ int main(int argc, char** argv)
         print_usage();
     }
 
+    GameboyArch gameboy;
+    read_game_rom(&gameboy, argv[1]);
+    
     return 0;
 }
 
